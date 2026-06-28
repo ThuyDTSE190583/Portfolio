@@ -1,0 +1,63 @@
+{
+  "nav": {
+    "home": "Trang Chủ",
+    "about": "Về Tôi",
+    "skills": "Kỹ Năng",
+    "experience": "Kinh Nghiệm",
+    "projects": "Dự Án",
+    "achievements": "Thành Tựu",
+    "contact": "Liên Hệ",
+    "resume": "Hồ Sơ"
+  },
+  "hero": {
+    "download_cv": "Tải CV"
+  },
+  "about": {
+    "title": "Về Tôi",
+    "more": "Xem thêm"
+  },
+  "stats": {
+    "repos": "Dự án Repo",
+    "commits": "Lượt Commits",
+    "projects": "Dự án",
+    "followers": "Người theo dõi"
+  },
+  "skills": {
+    "badge": "Công Nghệ",
+    "title": "Các công nghệ tôi sử dụng"
+  },
+  "experience": {
+    "badge": "Kinh Nghiệm Làm Việc"
+  },
+  "projects": {
+    "badge": "Dự Án Nổi Bật",
+    "view_all": "Xem tất cả",
+    "live_demo": "Xem thực tế"
+  },
+  "achievements": {
+    "badge": "Thành Tựu"
+  },
+  "contact": {
+    "badge": "Liên Hệ",
+    "title": "Kết Nối Cùng Tôi",
+    "email": "Email",
+    "location": "Vị trí",
+    "github": "GitHub",
+    "linkedin": "LinkedIn",
+    "facebook": "Facebook",
+    "name_label": "Tên của bạn",
+    "name_placeholder": "Nguyễn Văn A",
+    "email_label": "Email của bạn",
+    "email_placeholder": "email@example.com",
+    "message_label": "Lời nhắn",
+    "message_placeholder": "Tôi có thể giúp gì cho bạn?",
+    "send": "Gửi Tin Nhắn",
+    "sending": "Đang gửi...",
+    "success": "Gửi tin nhắn thành công!",
+    "error": "Gửi thất bại. Vui lòng thử lại."
+  },
+  "footer": {
+    "designed": "Thiết kế và Phát triển bởi ĐỖ THANH THỦY",
+    "rights": "Đã đăng ký bản quyền."
+  }
+}

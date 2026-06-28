@@ -1,0 +1,63 @@
+{
+  "nav": {
+    "home": "홈",
+    "about": "소개",
+    "skills": "기술",
+    "experience": "경험",
+    "projects": "프로젝트",
+    "achievements": "업적",
+    "contact": "연락처",
+    "resume": "이력서"
+  },
+  "hero": {
+    "download_cv": "이력서 다운로드"
+  },
+  "about": {
+    "title": "소개",
+    "more": "더 보기"
+  },
+  "stats": {
+    "repos": "저장소",
+    "commits": "커밋 수",
+    "projects": "프로젝트",
+    "followers": "팔로워"
+  },
+  "skills": {
+    "badge": "기술 스택",
+    "title": "사용하는 기술"
+  },
+  "experience": {
+    "badge": "경력"
+  },
+  "projects": {
+    "badge": "주요 프로젝트",
+    "view_all": "모두 보기",
+    "live_demo": "라이브 데모"
+  },
+  "achievements": {
+    "badge": "업적"
+  },
+  "contact": {
+    "badge": "연락처",
+    "title": "연락하기",
+    "email": "이메일",
+    "location": "위치",
+    "github": "GitHub",
+    "linkedin": "LinkedIn",
+    "facebook": "Facebook",
+    "name_label": "이름",
+    "name_placeholder": "홍길동",
+    "email_label": "이메일",
+    "email_placeholder": "email@example.com",
+    "message_label": "메시지",
+    "message_placeholder": "무엇을 도와드릴까요?",
+    "send": "메시지 보내기",
+    "sending": "보내는 중...",
+    "success": "메시지가 성공적으로 전송되었습니다!",
+    "error": "메시지 전송에 실패했습니다. 다시 시도해 주세요."
+  },
+  "footer": {
+    "designed": "디자인 및 개발: DO THANH THUY",
+    "rights": "모든 권리 보유."
+  }
+}
