@@ -147,6 +147,51 @@ const Stats = () => {
             );
           })}
         </motion.div>
+
+        {/* GitHub Activity & Top Languages Section */}
+        <motion.div
+          initial={{ opacity: 0, y: 30 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ once: true, margin: "-50px" }}
+          transition={{ delay: 0.2, duration: 0.6 }}
+          className="mt-12 grid grid-cols-1 xl:grid-cols-3 gap-6"
+        >
+          {/* Contribution Calendar */}
+          <div className="xl:col-span-2 glass-card p-6 md:p-8 rounded-2xl border border-white/5 bg-background/50 backdrop-blur-sm relative overflow-hidden group">
+            <div className="absolute top-0 left-0 w-full h-1 bg-gradient-to-r from-emerald-500 to-transparent opacity-0 group-hover:opacity-100 transition-opacity"></div>
+            <h4 className="text-xl font-bold text-white mb-6 font-poppins flex items-center gap-2">
+              <GitCommit className="w-5 h-5 text-emerald-500" />
+              Contribution Graph
+            </h4>
+            <div className="overflow-x-auto pb-4 custom-scrollbar">
+              <div className="min-w-[800px]">
+                <img 
+                  src={`https://ghchart.rshah.org/10b981/ThuyDTSE190583`} 
+                  alt="GitHub Contribution Graph" 
+                  className="w-full h-auto hue-rotate-180 invert opacity-90 hover:opacity-100 transition-opacity"
+                  loading="lazy"
+                />
+              </div>
+            </div>
+          </div>
+
+          {/* Top Languages */}
+          <div className="glass-card p-6 md:p-8 rounded-2xl border border-white/5 bg-background/50 backdrop-blur-sm relative overflow-hidden group flex flex-col justify-center">
+            <div className="absolute top-0 left-0 w-full h-1 bg-gradient-to-r from-blue-500 to-transparent opacity-0 group-hover:opacity-100 transition-opacity"></div>
+            <h4 className="text-xl font-bold text-white mb-6 font-poppins flex items-center gap-2">
+              <BookOpen className="w-5 h-5 text-blue-500" />
+              Top Languages
+            </h4>
+            <div className="flex justify-center w-full">
+              <img 
+                src={`https://github-readme-stats.vercel.app/api/top-langs/?username=ThuyDTSE190583&layout=compact&theme=vision-friendly-dark&hide_border=true&bg_color=00000000&title_color=3b82f6&text_color=94a3b8`} 
+                alt="Top Languages"
+                className="w-full max-w-[350px] opacity-90 hover:opacity-100 transition-opacity"
+                loading="lazy"
+              />
+            </div>
+          </div>
+        </motion.div>
       </div>
     </section>
   );

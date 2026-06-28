@@ -43,7 +43,7 @@ const Navbar = () => {
           duration={500}
           className="cursor-pointer flex items-center gap-2 text-2xl font-bold font-poppins"
         >
-          <span className="text-primary">Thuy</span>
+          <span className="text-primary">Do Thanh Thuy</span>
           <span className="text-white">.dev</span>
         </Link>
 
@@ -62,14 +62,7 @@ const Navbar = () => {
               {link.name}
             </Link>
           ))}
-          
-          <a
-            href="/assets/resume.pdf"
-            download
-            className="ml-4 px-5 py-2.5 bg-primary/10 text-primary border border-primary/20 rounded-full font-medium hover:bg-primary hover:text-white transition-all text-sm"
-          >
-            {t('nav.resume')}
-          </a>
+
 
           <LanguageSwitcher />
         </div>
@@ -106,13 +99,7 @@ const Navbar = () => {
                 {link.name}
               </Link>
             ))}
-            <a
-              href="/assets/resume.pdf"
-              download
-              className="text-center px-5 py-3 bg-primary text-white rounded-xl font-medium mt-2"
-            >
-              {t('nav.resume')}
-            </a>
+
             
             <div className="flex justify-center mt-2">
               <LanguageSwitcher />
