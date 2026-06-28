@@ -66,13 +66,18 @@ function App() {
       {loading && <Loader onLoadingComplete={() => setLoading(false)} />}
       
       {!loading && (
-        <div className="relative min-h-screen selection:bg-primary/30 selection:text-white">
+        <div className="relative min-h-screen selection:bg-primary/30 selection:text-white overflow-x-hidden w-full">
           <CursorGlow />
           
           {/* Global Background Ambient Effects */}
-          <div className="fixed inset-0 pointer-events-none z-[-1]">
-            <div className="absolute top-0 left-0 w-full h-full bg-[radial-gradient(ellipse_at_top_right,_var(--tw-gradient-stops))] from-primary/15 via-background to-background"></div>
-            <div className="absolute bottom-0 right-0 w-full h-full bg-[radial-gradient(ellipse_at_bottom_left,_var(--tw-gradient-stops))] from-blue-900/20 via-background to-background"></div>
+          <div className="fixed inset-0 pointer-events-none z-[-1] overflow-hidden">
+            {/* Mesh gradient blobs */}
+            <div className="absolute top-[-20%] left-[-10%] w-[50%] h-[50%] rounded-full bg-indigo-600/20 blur-[120px]"></div>
+            <div className="absolute bottom-[-20%] right-[-10%] w-[50%] h-[50%] rounded-full bg-fuchsia-600/10 blur-[120px]"></div>
+            <div className="absolute top-[40%] left-[60%] w-[30%] h-[30%] rounded-full bg-blue-600/10 blur-[100px]"></div>
+            
+            {/* Subtle overlay gradient */}
+            <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_top_right,_var(--tw-gradient-stops))] from-primary/5 via-background/90 to-background"></div>
           </div>
 
           <Navbar />

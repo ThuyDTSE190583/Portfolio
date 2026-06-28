@@ -85,16 +85,13 @@ const Skills = () => {
                     </h3>
                   </div>
                   
-                  <ul className="space-y-4">
+                  <div className="flex flex-wrap gap-2">
                     {skillGroup.items.map((item, i) => (
-                      <li key={i} className="flex items-center gap-3">
-                        <div className="w-1.5 h-1.5 rounded-full bg-primary/50 group-hover:bg-primary transition-colors"></div>
-                        <span className="text-slate-300 font-medium group-hover:text-white transition-colors">
-                          {item}
-                        </span>
-                      </li>
+                      <span key={i} className="px-3 py-1.5 text-sm font-medium text-slate-300 bg-white/5 border border-white/10 rounded-lg group-hover:bg-white/10 group-hover:border-white/20 group-hover:text-white transition-colors flex items-center justify-center shadow-sm">
+                        {item}
+                      </span>
                     ))}
-                  </ul>
+                  </div>
                 </div>
               </motion.div>
             );

@@ -5,7 +5,7 @@ export const projects = [
     description: "A comprehensive platform to track and analyze trending academic journals and publications.",
     image: "https://images.unsplash.com/photo-1555949963-aa79dcee57d5?auto=format&fit=crop&q=80&w=1000",
     tags: ["React", "Node.js", "Express", "MySQL", "Docker"],
-    githubUrl: "#",
+    githubUrl: "https://github.com/ThuyDTSE190583/JournalTrendingSystem",
     liveUrl: "#",
   },
   {
@@ -23,6 +23,24 @@ export const projects = [
     description: "A premium, responsive portfolio website built with React, Vite, and TailwindCSS.",
     image: "https://images.unsplash.com/photo-1507238691740-187a5b1d37b8?auto=format&fit=crop&q=80&w=1000",
     tags: ["React", "TailwindCSS", "Framer Motion", "Vite"],
+    githubUrl: "https://github.com/ThuyDTSE190583/portfolio",
+    liveUrl: "https://dothanhthuy.vercel.app",
+  },
+  {
+    id: 4,
+    title: "E-commerce Platform",
+    description: "A full-featured e-commerce web application with product listings, shopping cart, and secure checkout.",
+    image: "https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?auto=format&fit=crop&q=80&w=1000",
+    tags: ["React", "Redux", "Node.js", "MongoDB", "Stripe API"],
+    githubUrl: "#",
+    liveUrl: "#",
+  },
+  {
+    id: 5,
+    title: "Real-time Chat App",
+    description: "A fast and responsive chat application supporting real-time messaging, user presence, and private rooms.",
+    image: "https://images.unsplash.com/photo-1611162617474-5b21e879e113?auto=format&fit=crop&q=80&w=1000",
+    tags: ["React", "Socket.io", "Express", "TailwindCSS", "PostgreSQL"],
     githubUrl: "#",
     liveUrl: "#",
   }
