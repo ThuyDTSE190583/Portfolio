@@ -75,6 +75,50 @@ export const achievements = [
     bg: "bg-yellow-500/10",
     url: "https://www.coursera.org/account/accomplishments/specialization/certificate/2VJNZKE12WMA"
   },
+    {
+    id: 10,
+    title: "Introduction to Research for Essay Writing",
+    subtitle: "University of California, Irvine",
+    issuer: "Coursera",
+    date: "2026",
+    icon: BookOpen,
+    color: "text-blue-500",
+    bg: "bg-blue-500/10",
+    url: "https://coursera.org/share/866d5b49b07d67b5a93f26dd75c6d8b6"
+  },
+  {
+    id: 11,
+    title: "Advanced Writing",
+    subtitle: "University of California, Irvine",
+    issuer: "Coursera",
+    date: "2026",
+    icon: BookOpen,
+    color: "text-purple-500",
+    bg: "bg-purple-500/10",
+    url: "https://coursera.org/share/beacf97a15a0dfcfa22404d12761fb61"
+  },
+  {
+    id: 12,
+    title: "Being a Researcher",
+    subtitle: "Information Science and Technology • Politecnico di Milano",
+    issuer: "Coursera",
+    date: "2026",
+    icon: BrainCircuit,
+    color: "text-cyan-500",
+    bg: "bg-cyan-500/10",
+    url: "https://coursera.org/share/fafdc4125ac6ce8b8ac7a7dcf21c27a1"
+  },
+  {
+    id: 13,
+    title: "Research Methodologies",
+    subtitle: "Queen Mary University of London",
+    issuer: "Coursera",
+    date: "2026",
+    icon: GraduationCap,
+    color: "text-emerald-500",
+    bg: "bg-emerald-500/10",
+    url: "https://coursera.org/share/ed0ba660ef9cee3898f5e72deb4015ec"
+  },
   // Other Academic/Technical
   {
     id: 6,
