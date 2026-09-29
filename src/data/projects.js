@@ -1,47 +1,69 @@
-export const projects = [
+export const experience = [
   {
     id: 1,
-    title: "Journal Trending System",
-    description: "A comprehensive platform to track and analyze trending academic journals and publications.",
-    image: "https://images.unsplash.com/photo-1555949963-aa79dcee57d5?auto=format&fit=crop&q=80&w=1000",
-    tags: ["React", "Node.js", "Express", "MySQL", "Docker"],
-    githubUrl: "https://github.com/ThuyDTSE190583/JournalTrendingSystem",
-    liveUrl: "#",
+    role: "Frontend Developer",
+    company: "Journal Trending System",
+    period: "2024 - Present",
+    description:
+      "Contributed to the development of a web platform for tracking and analyzing trending academic journals.",
+    responsibilities: [
+      "Developed responsive dashboards using React",
+      "Integrated REST APIs with frontend interfaces",
+      "Built reusable and maintainable React components",
+      "Implemented responsive UI for different screen sizes",
+      "Collaborated with team members using Agile Scrum",
+      "Used Git and Docker throughout the development workflow",
+    ],
   },
+
   {
     id: 2,
-    title: "Meeting Room Management",
-    description: "An internal tool for organizations to seamlessly book, manage, and track meeting room usage.",
-    image: "https://images.unsplash.com/photo-1497366216548-37526070297c?auto=format&fit=crop&q=80&w=1000",
-    tags: ["Java", "Spring Boot", "React", "SQL Server"],
-    githubUrl: "#",
-    liveUrl: "#",
+    role: "Full-stack Developer",
+    company: "ResearchPulse",
+    period: "2026 - Present",
+    description:
+      "Contributed to a collaborative research management platform, working across frontend and backend development.",
+    responsibilities: [
+      "Developed and maintained React-based frontend features",
+      "Implemented backend services with Node.js",
+      "Worked with REST APIs and PostgreSQL databases",
+      "Integrated frontend and backend features",
+      "Participated in Git-based team development workflows",
+      "Worked with authentication and application architecture",
+    ],
   },
+
   {
     id: 3,
-    title: "Developer Portfolio",
-    description: "A premium, responsive portfolio website built with React, Vite, and TailwindCSS.",
-    image: "https://images.unsplash.com/photo-1507238691740-187a5b1d37b8?auto=format&fit=crop&q=80&w=1000",
-    tags: ["React", "TailwindCSS", "Framer Motion", "Vite"],
-    githubUrl: "https://github.com/ThuyDTSE190583/portfolio",
-    liveUrl: "https://dothanhthuy.vercel.app",
+    role: "Software Engineering Project",
+    company: "Academic & Personal Projects",
+    period: "2024 - Present",
+    description:
+      "Built multiple software projects to strengthen practical skills in web development and software engineering.",
+    responsibilities: [
+      "Developed web applications using React and JavaScript",
+      "Created RESTful APIs with Node.js and Express",
+      "Worked with relational and NoSQL databases",
+      "Designed responsive interfaces using TailwindCSS",
+      "Implemented authentication and CRUD functionality",
+      "Applied Git and GitHub for version control",
+    ],
   },
+
   {
     id: 4,
-    title: "E-commerce Platform",
-    description: "A full-featured e-commerce web application with product listings, shopping cart, and secure checkout.",
-    image: "https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?auto=format&fit=crop&q=80&w=1000",
-    tags: ["React", "Redux", "Node.js", "MongoDB", "Stripe API"],
-    githubUrl: "#",
-    liveUrl: "#",
+    role: "Backend Developer",
+    company: "Scientific Journal System",
+    period: "2026 - Present",
+    description:
+      "Worked on backend services and database integration for a scientific journal management system.",
+    responsibilities: [
+      "Developed backend APIs using Node.js",
+      "Worked with Prisma ORM and PostgreSQL",
+      "Implemented repository and service layers",
+      "Designed and maintained database schemas",
+      "Integrated backend APIs with frontend applications",
+      "Debugged and improved existing application features",
+    ],
   },
-  {
-    id: 5,
-    title: "Real-time Chat App",
-    description: "A fast and responsive chat application supporting real-time messaging, user presence, and private rooms.",
-    image: "https://images.unsplash.com/photo-1611162617474-5b21e879e113?auto=format&fit=crop&q=80&w=1000",
-    tags: ["React", "Socket.io", "Express", "TailwindCSS", "PostgreSQL"],
-    githubUrl: "#",
-    liveUrl: "#",
-  }
 ];
